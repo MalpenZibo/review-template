@@ -1,0 +1,14 @@
+[package]
+name = "review-template"
+version = "0.1.0"
+edition = "2021"
+description = "Template for starting a reView project using Trunk"
+readme = "README.md"
+repository = "https://github.com/MalpenZibo/review-template"
+license = "MIT"
+keywords = ["review", "trunk"]
+categories = ["gui", "wasm", "web-programming"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+review = "0.1.0"
