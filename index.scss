@@ -1,17 +1,16 @@
 html,
 body,
-.root {
+#root {
   height: 100%;
   margin: 0;
+  background: linear-gradient(to bottom right, #642a40, #b0413e);
+  overflow: hidden;
 }
 
-body,
-.root {
+#root {
   align-items: center;
   display: flex;
   justify-content: center;
-
-  background: linear-gradient(to bottom right, #642a40, #b0413e);
   font-size: 1.5rem;
 }
 
@@ -23,7 +22,7 @@ main {
 }
 
 .logo {
-  width: 100%;
+  width: 80%;
 }
 
 .heart:after {
